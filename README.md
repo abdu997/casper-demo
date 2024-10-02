@@ -20,17 +20,16 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Links
 
-To learn more about Next.js, take a look at the following resources:
+The application has been deployed on Vercel, here is the public link: [https://casper-demo-iota.vercel.app/](https://casper-demo-iota.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Approach
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I elected to use a NextJS application in case we need to add server components later. In addition to Tailwind CSS, since that's what the Casper website uses.
 
-## Deploy on Vercel
+## Features Notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I wanted to use a third party carousel feature for the top bar but I couldn't get them to work so I chose to build one myself, it's better to minimize reliance on third party libraries as much as possible as relying on them is risky.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I've been sick, still am sick so I tried to get it done today but I couldn't if i have more time I can finish the rest of the page.
