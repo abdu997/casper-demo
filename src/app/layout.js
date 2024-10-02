@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import TopBar from "../components/TopBar";
 
 const calibreRegular = localFont({
   src: "../../public/fonts/test-calibre-regular.woff2",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${calibreRegular.variable} antialiased`}
       >
+        <TopBar />
         {children}
       </body>
     </html>
